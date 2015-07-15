@@ -1,0 +1,38 @@
+﻿Build started 8/7/2015 4:54:48 PM.
+     1>Project "C:\Users\Junhao\Documents\ALP\Theme project\VS2010_SLA_Source\SLA\SLA.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SLA.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Qt\4.8.5\include\QtOpenGL /IC:\Qt\4.8.5\include\QtGui /IC:\Qt\4.8.5\include\QtCore /IC:\Qt\4.8.5\include /I.\GeneratedFiles /I. /IC:\Qt\4.8.5\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.5\include\QtCore /IC:\Qt\4.8.5\include\QtGui /IC:\Qt\4.8.5\include\QtOpenGL /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt sla.cpp
+         sla.cpp
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Junhao\Documents\ALP\Theme project\VS2010_SLA_Source\Win32\Debug\\SLA.exe" /NOLOGO /LIBPATH:"C:\Users\Junhao\Documents\ALP\Theme project\SLA software\opencv\build\x86\vc10\lib" /LIBPATH:C:\Qt\4.8.5\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtOpenGLd4.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_core248d.lib opencv_highgui248d.lib opencv_video248d.lib opencv_ml248d.lib opencv_legacy248d.lib opencv_imgproc248d.lib /MANIFEST /ManifestFile:"Debug\SLA.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Junhao\Documents\ALP\Theme project\VS2010_SLA_Source\Win32\Debug\SLA.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Junhao\Documents\ALP\Theme project\VS2010_SLA_Source\Win32\Debug\SLA.lib" /MACHINE:X86 Debug\moc_MyWidget.obj
+         Debug\moc_projector.obj
+         Debug\moc_qextserialbase.obj
+         Debug\moc_qextserialport.obj
+         Debug\moc_sla.obj
+         Debug\moc_win_qextserialport.obj
+         Debug\qrc_sla.obj
+         Debug\Calculator.obj
+         Debug\main.obj
+         Debug\MyWidget.obj
+         Debug\projector.obj
+         Debug\qextserialbase.obj
+         Debug\qextserialport.obj
+         Debug\win_qextserialport.obj
+         Debug\sla.obj
+         LINK : C:\Users\Junhao\Documents\ALP\Theme project\VS2010_SLA_Source\Win32\Debug\\SLA.exe not found or not built by the last incremental link; performing full link
+         SLA.vcxproj -> C:\Users\Junhao\Documents\ALP\Theme project\VS2010_SLA_Source\Win32\Debug\SLA.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Junhao\Documents\ALP\Theme project\VS2010_SLA_Source\Win32\Debug\\SLA.exe;#1" /manifest Debug\SLA.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\SLA.unsuccessfulbuild".
+         Touching "Debug\SLA.lastbuildstate".
+     1>Done Building Project "C:\Users\Junhao\Documents\ALP\Theme project\VS2010_SLA_Source\SLA\SLA.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.06
