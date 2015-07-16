@@ -376,6 +376,8 @@ void SLA::btnGenerateClicked(){
 	}
 
 	//Gcode for models
+	//changes
+	int count=0;
 	for(int i = supportinglayer; i < totalLayer; i ++){
 		Gcodes.push_back(QString("UP %1").arg(steps));
 		if(ui.cbBlock->isChecked()){
@@ -394,8 +396,13 @@ void SLA::btnGenerateClicked(){
 			Gcodes.push_back(QString("SHOW IMAGE %1").arg(i));
 			Gcodes.push_back(QString("EXPOSURE %1").arg(exposuretime));
 			Gcodes.push_back(QString("CLOSE PROJECTOR"));
+			count++;
+			if (count<10){
+				i--;
+			}
 		}
 	}
+	count =0;
 
 	//Gcode for END
 	Gcodes.push_back(QString("UP 4000"));

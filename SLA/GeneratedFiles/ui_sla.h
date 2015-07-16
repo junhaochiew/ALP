@@ -146,7 +146,7 @@ public:
     {
         if (SLAClass->objectName().isEmpty())
             SLAClass->setObjectName(QString::fromUtf8("SLAClass"));
-        SLAClass->resize(1249, 813);
+        SLAClass->resize(1249, 831);
         centralWidget = new QWidget(SLAClass);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         tabWidget = new QTabWidget(centralWidget);
